@@ -1,0 +1,152 @@
+body.steampunk-theme {
+    background-color: #1d1d1d;
+    color: #dcdcdc;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+.steampunk-heading {
+    color: #e1b382;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo do subtítulo */
+.steampunk-subheading {
+    color: #e1b382;
+    font-size: 24px;
+}
+
+
+input[type="text"], input[type="number"], select, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #e1b382;
+    background-color: #2e2e2e;
+    color: #dcdcdc;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #e1b382;
+    color: #1d1d1d;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #f2c26e;
+}
+
+#diceResultSpan {
+    font-weight: bold;
+}
+
+.error {
+    border: 1px solid #ff0000;
+}
+
+.error-message {
+    color: #ff0000;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.character-details {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill label {
+    width: 150px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#picture__input {
+    display: none;
+  }
+  
+  .picture {
+    width: 800px;
+    height: 1000px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+    outline: none;
+    overflow: hidden;
+  }
+  
+  .picture:hover {
+    color: #777;
+    background: #ccc;
+  }
+  
+  .picture:active {
+    border-color: turquoise;
+    color: turquoise;
+    background: #eee;
+  }
+  
+  .picture:focus {
+    color: #777;
+    background: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .picture__img {
+    max-width: 100%;
+  }
+
+  
