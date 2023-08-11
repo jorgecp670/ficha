@@ -282,24 +282,33 @@
         </div>
     </div>
 
-    </script>
-    // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAxH5o_IV9WZn72FyYUeyM4JbF4ls4cvqw",
-  authDomain: "ficha-teste-ad5fa.firebaseapp.com",
-  projectId: "ficha-teste-ad5fa",
-  storageBucket: "ficha-teste-ad5fa.appspot.com",
-  messagingSenderId: "890260354540",
-  appId: "1:890260354540:web:7b64a2205de5a347fc3cc9"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-storage.js"></script>
     <script src="script.js"></script>
+    <script>
+        // Sua configuração do Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyAxH5o_IV9WZn72FyYUeyM4JbF4ls4cvqw",
+            authDomain: "ficha-teste-ad5fa.firebaseapp.com",
+            projectId: "ficha-teste-ad5fa",
+            storageBucket: "ficha-teste-ad5fa.appspot.com",
+            messagingSenderId: "890260354540",
+            appId: "1:890260354540:web:7b64a2205de5a347fc3cc9"
+        };
+
+        // Inicialize o Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        // Seu script.js e outros scripts necessários
+        // ...
+    </script>
 </body>
 </html>
+
+
+
+
+
+
+        
+   
