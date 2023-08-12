@@ -11,33 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const pictureImageTxt = "Choose an image";
     pictureImage.innerHTML = pictureImageTxt;
 
-    // Configurar o Firebase com suas credenciais
-    const firebaseConfig = {
-        apiKey: "AIzaSyAxH5o_IV9WZn72FyYUeyM4JbF4ls4cvqw",
-        authDomain: "ficha-teste-ad5fa.firebaseapp.com",
-        projectId: "ficha-teste-ad5fa",
-        storageBucket: "ficha-teste-ad5fa.appspot.com",
-        messagingSenderId: "890260354540",
-        appId: "1:890260354540:web:7b64a2205de5a347fc3cc9"
-    };
-
-    firebase.initializeApp(firebaseConfig);
-    const database = firebase.database();
-
-    // Restante do seu código aqui...
-
-    function saveCharacterSheet() {
-        const formData = new FormData(characterForm);
-        const characterData = {};
-
-        formData.forEach((value, key) => {
-            characterData[key] = value;
-        });
-
-        // Salvar os dados da ficha no Firebase
-        database.ref('characters').push(characterData);
-    }
-
     function rollDice() {
         const diceQuantity = parseInt(document.getElementById('diceQuantity').value);
         const diceSides = parseInt(document.getElementById('diceSides').value);
